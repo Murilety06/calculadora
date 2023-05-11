@@ -1,4 +1,4 @@
-Comandos CMD
+Comandos Anotados durante as aulas
 
 Dir = Ver arquivos das pastas
 cd .. = Voltar uma pasta
@@ -7,8 +7,6 @@ Echo + (nome para o arquivo) > (nome do arquivo).txt
 cls = lompa a tela 
 rmdir (nome da pasta) /S /Q = remove tudo da pasta e a pasta
 mkdir (dar um nome)= cria pastas
-
-Comandos GIT
 rmdir (nome da pasta) /S /Q = remove tudo da pasta e a pasta
 mkdir (dar um nome)= cria pastas
 ls = lista tudo que tem na pasta 
@@ -40,6 +38,5 @@ Trees - Esse guarda os blobs e os nomes, caso mude o sha da blob, também mudar�
 Commits - É o bjeto que junta tudo, ele aponta para autor, parente, mensagem, raiz do arquivo, pasta... Ele também armazena o horário que foi criado.
 O SHA1 desse commit é o hash de todas as informações do arquivo
 
-Git 
 
 
