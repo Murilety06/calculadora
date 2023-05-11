@@ -1,0 +1,45 @@
+Comandos CMD
+
+Dir = Ver arquivos das pastas
+cd .. = Voltar uma pasta
+del +(nome da pasta) =  deleta apenas arquivos 
+Echo + (nome para o arquivo) > (nome do arquivo).txt 
+cls = lompa a tela 
+rmdir (nome da pasta) /S /Q = remove tudo da pasta e a pasta
+mkdir (dar um nome)= cria pastas
+
+Comandos GIT
+rmdir (nome da pasta) /S /Q = remove tudo da pasta e a pasta
+mkdir (dar um nome)= cria pastas
+ls = lista tudo que tem na pasta 
+ls -a = Mostra arquivos ocultos 
+Ctrl+L = Limpa tudo
+cd (nome da pasta) = Para entrar em uma pasta 
+git init = cria um repositório vazio na pasta
+git config --global user.email (email) = Para adicionar um e-mail ao git
+git config --global user.name (nome) = Para adicionar um nome ao Git
+Git add* = Adiciona um Commit
+git commit -m ("criar nome") = para adicionar um commit
+git status = Mostra o status do arquivo 
+mv (nome do arquivo ./(nome da pasta)= Para mover u, arquivo para outra pasta
+q = sair
+git config --list = Para ver as configuarções do meu github, como nome e etc
+git config --global --unset user.email = Remove o meu e-mail e meu nome 
+git remote add origin 9 Link do repositório do GitHub)= Para adicionar o meu repositório ao Git Hub
+git remote -v = Mostra a lista de repositórios
+git push origin master = para empurrar o meu repositó para o git Hub
+git pull origin master = para puxar o arquivo do github para a minha máquina
+git init =a para iniciar o git em uma pasta
+
+
+
+Git clone (link do diretório)= Para salvar um repositório na minha máquina
+openssl sha1 (nome do arquivo.txt) = criptografar um arquivo, a cada vez que alterar o arquivo, ele dará outro código
+Blobs - Contém meta-dados dos objetos, guarda o sha1 dos arquivos
+Trees - Esse guarda os blobs e os nomes, caso mude o sha da blob, também mudará o sha1 da tree
+Commits - É o bjeto que junta tudo, ele aponta para autor, parente, mensagem, raiz do arquivo, pasta... Ele também armazena o horário que foi criado.
+O SHA1 desse commit é o hash de todas as informações do arquivo
+
+Git 
+
+
